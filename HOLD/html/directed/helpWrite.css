@@ -1,0 +1,111 @@
+.helpWrite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  /* margin-top: 10px; */
+  display: flex;
+  width: 1400px;
+  /* text-align: center; */
+  justify-content: center;
+  border: 0;
+}
+#container form {
+  margin-top: 50px;
+  width: 1400px;
+  display: flex;
+  justify-content: center;
+}
+
+.helpWrite .write1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+#RH {
+  margin-left: 25px;
+  color: red;
+}
+.inputlabel {
+  display: block;
+
+  text-align: left;
+  font-family: "Do Hyeon";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  /* line-height: 44px; */
+  color: #9b0000;
+}
+.underline {
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 1;
+
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  /* line-height: 38px; */
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 90%;
+  height: 40px;
+  padding: 3px;
+  margin-bottom: 4px;
+  box-sizing: border-box;
+  /*
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    */
+}
+.helpWrite .write2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+#story {
+  width: 550px;
+  height: 478px;
+  resize: none;
+  border: 0;
+  padding-top: 7px;
+  padding-left: 10px;
+  background: rgba(217, 217, 217, 0.5);
+  margin-top: 4px;
+
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.helpWrite .row1 {
+  display: flex;
+  justify-content: space-between;
+}
+.helpWrite .Btn {
+  display: flex;
+}
+.helpWrite .Btn button {
+  width: 110px;
+  height: 40px;
+  background-color: #ffb3b3;
+  border: none;
+  font-size: 18px;
+}

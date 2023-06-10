@@ -1,0 +1,61 @@
+.noticeWrite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.standard {
+  display: flex;
+
+  width: 1202px;
+  height: 75px;
+  margin-top: 5px;
+  font-size: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.standard input {
+  width: 70%;
+  height: 55px;
+  font-size: 30px;
+  background-color: #f2f2f2;
+}
+.standard select {
+  background-color: #f2f2f2;
+  width: 20%;
+  height: 60px;
+  font-size: 25px;
+}
+.noticeWrite main textarea {
+  width: 1180px;
+  height: 600px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  resize: none;
+  padding: 10px;
+}
+.noticeWrite main .btn {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.noticeWrite main button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 58px;
+  background-color: #ffc3c3;
+  border: none;
+  font-size: 30px;
+}

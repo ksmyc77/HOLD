@@ -1,0 +1,125 @@
+.direct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.direct main {
+  display: flex;
+}
+.direct main .bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 350px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-right: 50px;
+  background-color: #fcfbfb;
+}
+.direct main .bar .choose {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.direct main .bar .choose select {
+  width: 80%;
+  margin-bottom: 20px;
+  height: 50px;
+  font-size: 20px;
+}
+.direct main .bar .choose .chooseBtn {
+  display: flex;
+  width: 90%;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+.direct main .bar .choose .chooseBtn :focus {
+  background-color: #ffc3c3;
+}
+.direct main .bar .choose .chooseBtn button :checked {
+  background-color: #ffc3c3;
+}
+.direct main .bar .choose .chooseBtn button {
+  background-color: #fcfbfb;
+  height: 50px;
+  width: 85px;
+  border: 1px solid gray;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.direct main .bar .apply button {
+  width: 270px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #f2eeee;
+  border: 1px solid gray;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.direct main .list {
+  margin-top: 50px;
+  width: 1050px;
+  height: 500px;
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.direct .list .ti {
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.notices .list .ti h4 {
+  margin: 0px;
+}
+.notices .list .ti .name {
+  width: 10%;
+}
+.notices .list .ti .num {
+  width: 60%;
+}
+.notices .list .ti .blood {
+  width: 10%;
+}
+.notices .list .ti .date {
+  width: 10%;
+}
+.notices .list .ti .counting {
+  width: 10%;
+}
+.direct .list .post {
+  width: 100%;
+  height: 100%;
+}
+#post-list {
+  width: 1050px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #d9d9d9;
+  background-color: #fcfbfb;
+  height: 13%;
+  align-items: center;
+  font-size: 30px;
+}
+#post-list a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  font-size: 23px;
+}
+.direct .btns button {
+  background-color: white;
+  border: none;
+  font-size: 18px;
+}

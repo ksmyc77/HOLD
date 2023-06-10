@@ -1,0 +1,111 @@
+.bloodList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bloodList main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1500px;
+}
+.bloodList main h1 {
+  margin-bottom: 10px;
+}
+.bloodList main .col {
+  margin-right: 50px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  justify-content: center;
+  align-items: center;
+}
+.bloodList main .col .count {
+  display: flex;
+}
+.bloodList main .col .count h1 {
+  margin-left: 10px;
+}
+.bloodList main .box {
+  width: 800px;
+  height: 500px;
+  border: 3px solid #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  /* background-color: #f3f3f3; */
+  border-radius: 10px;
+}
+.bloodList .col .btn {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+}
+.bloodList .col .btn button {
+  background-color: white;
+  font-size: 23px;
+  border: none;
+}
+#post-list {
+  /* width: 1300px; */
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 2px solid #d9d9d9;
+  height: 10%;
+  align-items: center;
+  font-size: 30px;
+}
+#post-list a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.col .card {
+  width: 400px;
+  height: 550px;
+  border: 1px solid #999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px #999;
+}
+.col .card .level {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: darkslategrey;
+  color: white;
+  font-size: 50px;
+}
+.col .card .level h1 {
+  margin: 0px;
+}
+.col .card .content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.col .card .content H2 {
+  margin-left: 10px;
+}
+.col .card .content .name {
+  display: flex;
+}
+.col .card .content .blood {
+  display: flex;
+}
+.col .card .content .phone {
+  display: flex;
+}

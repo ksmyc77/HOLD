@@ -1,0 +1,97 @@
+.hope {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hope main {
+  display: flex;
+  width: 1380px;
+  justify-content: space-between;
+  align-items: center;
+}
+.hope h1 {
+  margin: 0px;
+  margin-bottom: 15px;
+  font-size: 45px;
+}
+.hope .row1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hope main .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 900px;
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.hope main .box .list {
+  font-size: 25px;
+  display: flex;
+  padding-left: 10px;
+  justify-content: space-between;
+  height: 50px;
+  width: 880px;
+  border-bottom: 1px solid #d9d9d9;
+  align-items: center;
+}
+.hope main .box .list .btn {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hope main .box .list button {
+  height: 50px;
+  font-size: 25px;
+  margin: 0px;
+  background-color: white;
+  border: none;
+}
+.hope main .passBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+}
+.hope main .passBtn button {
+  background-color: white;
+  border: none;
+  font-size: 25px;
+  width: 80px;
+}
+.hope .row2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hope .write {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.hope .write textarea {
+  width: 400px;
+  height: 200px;
+  font-size: 35px;
+  resize: none;
+  border-radius: 7px;
+}
+.hope main .row2 h2 {
+  font-size: 30px;
+}
+.hope .write button {
+  background-color: #ffb3b3;
+  height: 60px;
+  width: 130px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 10px;
+}

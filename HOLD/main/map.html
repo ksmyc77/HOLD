@@ -1,0 +1,35 @@
+<!-- 지도 페이지 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>헌혈 플랫폼</title>
+	<!-- CSS 파일 -->
+	<script src="../include/include.js" defer></script>
+	<script src="map.css" defer></script>
+	<style>
+		#map {
+			height: 550px;
+			width: 75%;
+		}
+	</style>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../include/dropdown.css">
+	<script type="text/javascript">   
+		$(document).ready( function() {
+		$("#headers").load('../include/dropdown.html');  // 원하는 파일 경로를 삽입하면 된다
+		});
+		</script>
+</head>
+<body>
+	<div id="headers"></div>
+	<div id="map"></div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDx8VonbSH4hc_JzdJzZVGvVf-1fGu08Zs"></script>
+	<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDx8VonbSH4hc_JzdJzZVGvVf-1fGu08Zs&libraries=places">
+</script>
+	<script src="maps.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDx8VonbSH4hc_JzdJzZVGvVf-1fGu08Zs&callback=initMap"></script>
+	<label for="map">지도 페이지</label>
+	<a href="home.html">메인으로</a>
+</body>
